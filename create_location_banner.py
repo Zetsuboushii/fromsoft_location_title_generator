@@ -21,7 +21,7 @@ def create_svg_with_caption(caption, output_file):
         fill="white"
     ))
 
-    line_y = text_y + 10
+    line_y = text_y + 3
     path_d = f"M {text_x - 375} {line_y} Q {text_x} {line_y-1}, {text_x + 375} {line_y}"
 
     # Create the gradient for the line
